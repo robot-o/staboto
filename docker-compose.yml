@@ -3,7 +3,7 @@ version: '3.8'
 services:
   staboto:
     container_name: 'staboto'
-    image: 'ghcr.github.io/robot-o/staboto:latest'
+    image: 'ghcr.io/robot-o/staboto:latest'
     restart: unless-stopped
     env_file: .env
 
